@@ -1,0 +1,1 @@
+export const BASE_URL = "https://labe-ecommecer-g.herokuapp.com"
