@@ -7,7 +7,7 @@ import { BASE_URL } from '../../constants/BASE_URL';
 
 
 export const HistoricPurchase = () => {
-    const userId = '74ff4538-ea07-467b-a60f-aa890a8b39b1'
+    const userId = 'fca4da71-6e6d-41e4-befb-0aa28bb5860b'
     const { data } = useRequestData(`${BASE_URL}/purchase/${userId}`)
 
     const historic = data?.map((historic) => {
@@ -17,7 +17,7 @@ export const HistoricPurchase = () => {
         <Styled.Container>
             <Header />
             <Styled.Content>
-                {historic ? historic : <h1>usuário não possui compras</h1>}
+                {historic ? historic : <h3>usuário não possui compras</h3>}
             </Styled.Content>
         </Styled.Container>
     )

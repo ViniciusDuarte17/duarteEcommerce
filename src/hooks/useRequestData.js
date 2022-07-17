@@ -13,8 +13,7 @@ export const useRequestData = ( url) => {
             
         })
         .catch( (err) => {
-            alert(`Algo deu errado`)
-            console.log(err)
+            alert(err.response.data)
         })
     }, [url ])
 

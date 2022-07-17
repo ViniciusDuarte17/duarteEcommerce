@@ -36,7 +36,7 @@ export const AddProduct = () => {
     const purchase = () => {
 
         const body = {
-            userId: `74ff4538-ea07-467b-a60f-aa890a8b39b1`,
+            userId: `fca4da71-6e6d-41e4-befb-0aa28bb5860b`,
             productId: cart[0].id,
             quantity: cart[0].quantity
         }
