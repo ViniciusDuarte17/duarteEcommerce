@@ -1,10 +1,5 @@
+
 # projeto duarteEcommerce
-
-Feitor por: 
-- [Vinicius Duarte Passo](https://github.com/ViniciusDuarte17)
-
-### -  link do site front-end integrado com o api: https://abstracted-bubble.surge.sh/
-### - Link da documentação da api:  https://documenter.getpostman.com/view/19713876/UzJLPwxi
 
 ## Sobre o projeto
 É um projeto full-stack, onde desenvolvi um ecommerce de produto eletrônica, comsumindo minha própria api. No front-end crei a home-page trazendo todos os produtos do meu banco de dados, faço a lógica de adicionar produto para a página de carrinho, na página de carrinho havendo produtos o usuário consegue deletar  um produto ou efetuar a compra. A página de histórico traz todo o historico da compra de um usuário.
@@ -13,7 +8,9 @@ No back-end é onde ta toda a minha regra de négocio, criei três tabelas, de U
 <br/>
 
 
-# Tecnologias utilizadas front-end
+
+### Tecnologias utilizadas front-end
+
 - [React.js](https://pt-br.reactjs.org/docs/getting-started.html)
 - [Styled-Components](https://styled-components.com/docs)
 - [Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
@@ -23,13 +20,23 @@ No back-end é onde ta toda a minha regra de négocio, criei três tabelas, de U
 
 <hr/>
 
-# Tecnologias utilizadas BACK-END
+### Tecnologias utilizadas BACK-END
  - Mysql workbench  
  - typescript
  - node.js
  - Express.js
  - APIs REST
-
-
-## DESMOSTRAÇÃO DE COMO FICOU O DUARTE-ECOMMERCE
+ 
+ ## DESMOSTRAÇÃO DE COMO FICOU O DUARTE-ECOMMERCE
 ![ecommerce](https://user-images.githubusercontent.com/92999708/179429890-e93506e4-b44d-41ef-aa3c-740c0c06da94.gif)
+
+ 
+  ### Link da aplicação
+  [link do site](https://abstracted-bubble.surge.sh/)
+  
+  [Link da documentação da api](https://documenter.getpostman.com/view/19713876/UzJLPwxi)
+ 
+ ## Autor
+
+- [@ViniciusDuarte17](https://github.com/ViniciusDuarte17)
+
